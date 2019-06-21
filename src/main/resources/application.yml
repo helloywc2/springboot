@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: yang
+    password: 123456
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+#    url: jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+logging:
+  pattern:
+    console: "%d - %msg%n"
